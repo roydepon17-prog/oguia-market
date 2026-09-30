@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #1b110d;
+    --surface: #1b110d;
+    --surface-container-lowest: #150c08;
+    --surface-container-low: #241915;
+    --surface-container: #281d19;
+    --surface-container-high: #332723;
+    --surface-container-highest: #3f322d;
+    --surface-bright: #433631;
+    --on-surface: #f3ded7;
+    --on-surface-variant: #c2c9bb;
+    --outline: #8c9387;
+    --outline-variant: #42493e;
+    --primary: #a1d494;
+    --primary-container: #2d5a27;
+    --on-primary: #0a3909;
+    --on-primary-container: #9dd090;
+    --secondary: #ffb956;
+    --secondary-container: #c78202;
+    --on-secondary: #462b00;
+    --tertiary: #ffb4a8;
+    --tertiary-container: #9c1e13;
+    --on-tertiary: #690100;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--on-surface);
+    font-family: 'Epilogue', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #150c08;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #332723;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a1d494;
+  }
+}
+
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-epilogue {
+  font-family: 'Epilogue', sans-serif;
+}
+
+/* Material symbol utility */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}

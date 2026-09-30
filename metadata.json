@@ -1,0 +1,6 @@
+{
+  "name": "O'guia Chocolates — Single-Estate Craft Chocolate",
+  "description": "Single-origin regenerative agroforestry cacao estate from Maayon, Capiz. Tree-to-bar chocolate portfolio, terroir showcase, and investor memorandum.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
